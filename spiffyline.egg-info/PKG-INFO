@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: spiffyline
-Version: 0.0.1
+Version: 0.0.2
 Summary: Spiff up your CLI with color, formatting, and utilities
-Home-page: https://github.com/snakeyworm/spiffy-line
+Home-page: https://github.com/snakeyworm/spiffyline
 Author: Caleb Loera
 License: UNKNOWN
 Description: 
@@ -13,10 +13,10 @@ Description:
         
         Features:
         
-            * Abstraction of ANSI SGR codes for ease of use
-            * Predefined colors for quick formatting
-            * <code>Theme</code> class to combine SGR codes to reuse
-            * Utility methods to make adding formatting and color simple and concise
+        * Abstraction of ANSI SGR codes for ease of use
+        * Predefined colors for quick formatting
+        * <code>Theme</code> class to combine SGR codes to reuse
+        * Utility methods to make adding formatting and color simple and concise
         
         Ussage:
         
@@ -37,6 +37,8 @@ Description:
             
             l.log( "Error", my_theme, flags=[ "error", ] )
             print( l.events[ "error" ] ) # => 1
+        
+        Please download the [API Documentation](https://github.com/snakeyworm/spiffylinetree/master/docs) from GitHub
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3

@@ -6,10 +6,10 @@ coloring to terminal output via abstraction of ANSI SGR codes.
 
 Features:
 
-    * Abstraction of ANSI SGR codes for ease of use
-    * Predefined colors for quick formatting
-    * <code>Theme</code> class to combine SGR codes to reuse
-    * Utility methods to make adding formatting and color simple and concise
+* Abstraction of ANSI SGR codes for ease of use
+* Predefined colors for quick formatting
+* <code>Theme</code> class to combine SGR codes to reuse
+* Utility methods to make adding formatting and color simple and concise
 
 Ussage:
 
@@ -30,3 +30,5 @@ Ussage:
     
     l.log( "Error", my_theme, flags=[ "error", ] )
     print( l.events[ "error" ] ) # => 1
+
+Please download the [API Documentation](https://github.com/snakeyworm/spiffylinetree/master/docs) from GitHub

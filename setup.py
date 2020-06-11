@@ -7,12 +7,12 @@ with open( os.path.join( os.path.dirname( __file__ ),  "README.md" ), "r" ) as f
 
 setuptools.setup(
     name="spiffyline",
-    version="0.0.1",
+    version="0.0.2",
     author="Caleb Loera",
     description="Spiff up your CLI with color, formatting, and utilities",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/snakeyworm/spiffy-line",
+    url="https://github.com/snakeyworm/spiffyline",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
