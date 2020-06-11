@@ -7,7 +7,7 @@ with open( os.path.join( os.path.dirname( __file__ ),  "README.md" ), "r" ) as f
 
 setuptools.setup(
     name="spiffyline",
-    version="0.0.2",
+    version="1.0",
     author="Caleb Loera",
     description="Spiff up your CLI with color, formatting, and utilities",
     long_description=long_description,
